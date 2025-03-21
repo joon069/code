@@ -2,11 +2,9 @@
 
 int main(void)
 {
-    int a=0, b=0;
-    scanf("%d %d", &a, &b);
-    for(int i=1; i<=a; i++){
-        for(int j=1; j<=b; j++){
-            printf("*");
+    for(int i=1; i<=9; i++){
+        for(int j=1; j<=9; j++){
+            printf("%2d ",i*j);
         }
     printf("\n");
     }
