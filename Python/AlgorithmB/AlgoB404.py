@@ -49,4 +49,13 @@ print(fact(1))
 print(fact(5))
 print(fact(10))
 
+#앨리스 6-5
+def sum_n(n):
+    if n == 1:
+        return 1
+    return n + sum_n(n-1)
+
+print(sum_n(10))   # 1부터 10까지의 합(입력:10, 출력:55)
+print(sum_n(100))  # 1부터 100까지의 합(입력:100, 출력:5050)
+
 
