@@ -38,3 +38,15 @@ print_pairs(name)
 print()
 name2 = ["Tom", "Jerry", "Mike", "John"]
 print_pairs(name2)
+
+#앨리스 2-2
+def fact(n):
+    if n == 0:
+        return 1
+    return n * fact(n-1)
+    
+print(fact(1))
+print(fact(5))
+print(fact(10))
+
+
