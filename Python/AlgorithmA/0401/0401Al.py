@@ -6,8 +6,6 @@ def sel_sort(a):
             if(a[j]>a[min_idx]):
                 min_idx = j
         a[i], a[min_idx] = a[min_idx], a[i]
-
-
 d = [2, 4, 5, 1, 3]
 sel_sort(d)
 print(d)
