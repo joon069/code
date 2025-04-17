@@ -1,7 +1,11 @@
-age = int(input("Enter your age: "))
-if age >= 20:
-    print("성인입니다.")
-elif age >= 13 and age <20:
-    print("청소년입니다.")
-elif age < 13:
-    print("어린이입니다.")
+season = int(input())
+if season <=5 and season >= 3:
+    print("봄입니다.")
+elif season <= 8 and season >= 6:
+    print("여름입니다.")
+elif season <= 11 and season >= 9:
+    print("가을입니다.")
+elif season <= 2 or season == 12:
+    print("겨울입니다.")
+else:
+    print("잘못된 계절입니다.")
