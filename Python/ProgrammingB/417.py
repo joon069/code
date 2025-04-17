@@ -1,15 +1,7 @@
-num= int(input())
-
-if num%2==0:
-    print("Even")
-else:
-    print("Odd")
-
-num= int(input())
-
-if num > 0:
-    print("양수")
-elif num < 0:
-    print("음수")
-elif num == 0:
-    print("0")
+age = int(input("Enter your age: "))
+if age >= 20:
+    print("성인입니다.")
+elif age >= 13 and age <20:
+    print("청소년입니다.")
+elif age < 13:
+    print("어린이입니다.")
