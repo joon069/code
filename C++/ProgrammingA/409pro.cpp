@@ -62,7 +62,7 @@ int main(void)
     else if(monney >= 1000 && 9 == object)
     {
         printf("잔금이 1000원 이상입니다.\n");
-        printf("무려 과자 한봉지를 사 먹을 수있습니다.\n");
+        printf("무려 과자 한봉지(이상) 사 먹을 수있습니다.\n");
     }
     else if(monney <= 999 && 10 == object)
     {
