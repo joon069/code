@@ -70,4 +70,19 @@
 
 # print((9000*count)+((400*2)*count)+(700*count), "원")
 
+# sum = 0
+# for i in range(5, 11):
+#   sum += i
+# print(sum)
 
+# sum = 0
+# i = 3
+# while i <= 100:
+#   sum += i
+#   i += 3
+# print(sum)
+
+for i in range(1, 10):
+  for j in range(1,10):
+    print(i,'*', j, '=', j*i)
+  print(i,"단")
