@@ -13,7 +13,7 @@ print(fibo(10))
 
 print("===================================")
 
-print(hanoi)
+print("hanoi")
 def hanoi(n, from_pos, to_pos, aux_pos):
     if n == 1:
         return print(f"{from_pos} -> {to_pos}")
